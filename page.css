@@ -97,7 +97,7 @@ nav a:hover::before {
   background-color: white;
   border-radius: 20px;
 }
-.minesweeper {
+.gaming {
   margin: 10px;
   border-radius: 20px;
   padding: 20px;
@@ -124,8 +124,5 @@ nav a:hover::before {
 }
 .normtext {
  font-size: 15px;
-
-}
-.pacman {
 
 }
