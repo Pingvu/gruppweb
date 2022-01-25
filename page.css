@@ -97,3 +97,35 @@ nav a:hover::before {
   background-color: white;
   border-radius: 20px;
 }
+.minesweeper {
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  height: fit-content;
+  background-color: lightgreen;
+  margin-top: 20px;
+}
+.bigtext {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.main2{
+  display: flex;
+}
+.div2 {
+  display: flex;
+}
+.img1 {
+  width: 50px;
+  height: auto;
+  padding-right: 10px;
+}
+.normtext {
+ font-size: 15px;
+
+}
+.pacman {
+
+}
