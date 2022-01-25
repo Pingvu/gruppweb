@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+/* NavBar */ 
 body {
 	margin: 0;
 	background: rgb(218, 216, 216);
@@ -70,4 +72,28 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+/* Main Content */
+
+.main {
+  background-color: red;
+  padding: 24rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_content {
+  margin: 0;
+  padding: 0;
+}
+
+.main h1 {
+  padding: 10px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
