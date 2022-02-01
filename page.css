@@ -122,8 +122,8 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     margin: 10px;
     border-radius: 20px;
     padding: 20px;
-    width: 300px;
-    height: fit-content;
+    width: 330px;
+    height: 300px;
     background-color: #141E30;
     margin-top: 20px;
 }
@@ -151,6 +151,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 .normtext {
     font-size: 15px;
     color: #d4af37;
+    padding:3px;
 }
 
 .img2 {
@@ -161,7 +162,8 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 .imglink {
   width: 120px;
   height: auto;
-  padding: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
 }
 .gaming h1 a {
   color:#d4af37 ;
