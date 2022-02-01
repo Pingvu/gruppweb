@@ -124,7 +124,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     padding: 20px;
     width: 300px;
     height: fit-content;
-    background-color: lightblue;
+    background-color: #34528a ;
     margin-top: 20px;
 }
 
@@ -136,6 +136,9 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 
 .div2 {
     display: flex;
+}
+.game {
+  display: flex;
 }
 
 .img1 {
@@ -152,6 +155,11 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     width: 70px;
     height: auto;
     padding-right: 10px;
+}
+.imglink {
+  width: 100px;
+  height: auto;
+  padding: 2px;
 }
 
 /* Footer */
