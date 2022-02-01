@@ -124,7 +124,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     padding: 20px;
     width: 300px;
     height: fit-content;
-    background-color: #34528a ;
+    background-color: #141E30;
     margin-top: 20px;
 }
 
@@ -132,6 +132,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     padding: 10px;
     text-align: center;
     font-size: 20px;
+    color: #d4af37;
 }
 
 .div2 {
@@ -149,6 +150,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 
 .normtext {
     font-size: 15px;
+    color: #d4af37;
 }
 
 .img2 {
@@ -157,9 +159,33 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
     padding-right: 10px;
 }
 .imglink {
-  width: 100px;
+  width: 120px;
   height: auto;
-  padding: 2px;
+  padding: 5px;
+}
+.gaming h1 a {
+  color:#d4af37 ;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+.gaming h1 a {
+  color: #d4af37;
+  transition: all 0.5s ease
+}
+.gaming h1 a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #d4af37;
+
+  position: top;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.gaming h1 a:hover::before {
+    width: 100%;
 }
 
 /* Footer */
