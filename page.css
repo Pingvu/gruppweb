@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik&family=Zen+Kurenaido&display=swap');
 /* NavBar */ 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
 	margin: 0;
-	background: rgb(218, 216, 216);
 	font-family: 'Raleway', sans-serif;
   font-family: 'Rubik', sans-serif;
   font-family: 'Zen Kurenaido', sans-serif;
@@ -15,6 +20,7 @@ body {
 
 header {
  background:linear-gradient(to right,#141E30, #0d203d);
+ padding-bottom: 2rem;
 }
 
 header::after {
@@ -25,7 +31,6 @@ header::after {
 
 .logo {
   float: left;
-  padding: 10px 0;
 }
 
 nav {
@@ -111,6 +116,8 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
   color: #d4af37;
 }
 
+/* */
+
 .gaming {
   margin: 10px;
   border-radius: 20px;
@@ -139,4 +146,75 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 .normtext {
  font-size: 15px;
 
+}
+
+/* Footer */
+
+.Footer {
+  background:linear-gradient(to right,#141E30, #0d203d);
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  color: #d4af37;
+}
+
+/* Första Columnen*/
+
+.Footer_Header_1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-size: 20px;
+}
+
+.Footer_Header_1 h2 {
+  margin-bottom: 2rem;
+}
+
+.Footer_Header_1 a {
+  color: #d4af37;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+/* Andra Columnen*/
+
+.Footer_Header_2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-size: 20px;
+}
+
+.Footer_Header_2 h2 {
+  margin-bottom: 2rem;
+}
+
+.Footer_Header_2 a {
+  color: #d4af37;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+/* Tredje Columnen*/
+
+.Footer_Header_3 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-size: 20px;
+}
+
+.Footer_Header_3 h2 {
+  margin-bottom: 2rem;
+}
+
+.Footer_Header_3 a {
+  color: #d4af37;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
 }
