@@ -85,20 +85,14 @@ nav a:hover::before {
 
 .main {
   background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  padding: 24rem 0;
+  background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main_content {
-    margin: 0;
-    padding: 0;
-}
 
 .main h1 {
   padding: 10px;
@@ -114,6 +108,38 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
   justify-content: center;
   align-items: center;
   color: #d4af37;
+  font-size: 20px;
+}
+
+/* Information Page*/
+
+.information {
+  padding: 15rem 0;
+  padding-bottom: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-question {
+  padding: 0rem 40rem 5rem 40rem;
+  font-size: 14rem;
+  color:#d4af37;
+}
+
+.information_header {
+  padding: 0rem 40rem 0rem 40rem;
+  color:#d4af37;
+  font-size: 40px;
+}
+
+.information_text {
+  padding: 0rem 40rem 0rem 40rem;
+  color: #d4af37;
+  font-size: 20px;
 }
 
 /* */
